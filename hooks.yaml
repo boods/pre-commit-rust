@@ -19,3 +19,10 @@
     language: system
     files: \.rs$
     pass_filenames: false
+-   id: fmt-nightly
+    name: fmt
+    description: Format files with cargo fmt.
+    entry: cargo +nightly fmt --
+    language: system
+    files: \.rs$
+    args: []
